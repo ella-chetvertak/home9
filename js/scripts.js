@@ -9,6 +9,6 @@ newObject.b.t = {...object.b.t};
 
     // For example
 
-newObject.q = 20;
+newObject.b.t.q = 20;
 console.log(object); //nothing changed
 console.log(newObject); // q = 20 now
